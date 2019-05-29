@@ -1,2 +1,2 @@
 # GmodScripts
-I will probably put scripts here for gmod 
+I will probably put scripts here for gmod lua
