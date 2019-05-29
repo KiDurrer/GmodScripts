@@ -1,7 +1,7 @@
 -- File in the server autorun
 net.AddNetworkMessage("pmcustom")
 
-hook.Add("PlayerSay","NetworkTest, function(ply, test, boolT)
+hook.Add("PlayerSay","NetworkTest, function(ply, text, boolT)
   if(string.sub(string.lower(text), 1, 3) == "!pm") then
     local isFound = false
     local messageTable = string.Split(string.lower(text), " ")
